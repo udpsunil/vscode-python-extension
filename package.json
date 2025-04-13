@@ -40,7 +40,7 @@
     "capabilities": {
         "virtualWorkspaces": {
             "supported": false,
-            "description": "Virtual Workspaces are not supported with <pytool-display-name>."
+            "description": "Virtual Workspaces are not supported with my-tools."
         }
     },
     "activationEvents": [
@@ -118,7 +118,7 @@
                         "All notifications are turned off, any errors or warning are still available in the logs.",
                         "Notifications are shown only in the case of an error.",
                         "Notifications are shown for errors and warnings.",
-                        "Notifications are show for anything that the server chooses to show."
+                        "Notifications are shown for anything that the server chooses to show."
                     ],
                     "scope": "machine",
                     "type": "string"
@@ -128,7 +128,7 @@
         "commands": [
             {
                 "title": "Restart Server",
-                "category": "<pytool-display-name>",
+                "category": "my-tools",
                 "command": "vscode-python-extension.restart"
             }
         ]
